@@ -92,4 +92,39 @@ Sites -> Add new site ->import an existing project
 ![image](https://github.com/yunshinhee/git_connect/assets/145514638/8eb2f0f2-66a5-4d77-bb92-271d131bd510)
 원하는 파일 눌러서 클릭 -> Deploy webstandard -> 업로드 되면 파일 이름바꾸기 
 
+# GitHub에 계속 업데이트 하는 법🎃🎃🎃
 
+1.추가할 파일 더하기
+
+```
+git add .
+```
+2.히스토리 만들기
+
+```
+git commit -m "두번째 수정 2023/11/23"
+```
+
+3.Github에 올리기
+
+```
+git push origin master
+```
+
+💥💥💥 단) 올릴때 오류가 발생한다면
+
+#다시 github의 내용을 끌어와야한다.
+
+```
+git pull origin mater
+```
+# 2. 히스토리 만들기
+
+```
+git commit -m "두번째 수정 2023/11/23"
+```
+
+# github에 올리기
+```
+git push origin master
+```
